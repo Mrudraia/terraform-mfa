@@ -1,0 +1,9 @@
+apiVersion: operators.coreos.com/v1alpha1
+kind: CatalogSource
+metadata:
+  name: managed-fusion-catsrc
+  namespace: managed-fusion
+spec:
+  sourceType: grpc
+  image: quay.io/resoni/managed-fusion-agent-index:4.12.3-31.05
+  displayName: Managed Fusion Agent

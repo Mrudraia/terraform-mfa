@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# REQUIRED: Provide an API key.
+export IC_API_KEY="XXXXXX"   
+export RESOURCE_PREFIX="XXXXX"  ## default 
+export LOCATION_REGION="eu-gb"
+export CLOUD_ENDPOINT="cloud.ibm.com"
+export CLUSTER_ID="XXXXXXXXXX"
